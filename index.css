@@ -1633,6 +1633,9 @@ body {
     text-decoration: none;
     font-family: arial;
 }
+.footer-content-2>ul a:hover{
+    color: rgb(255, 111, 0);
+}
 
 /* 5th Fotter content details
                          - Payment Options */
