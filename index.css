@@ -1,0 +1,1677 @@
+body {
+    border: 2px solid;
+    border-radius: 5px;
+    margin: 3px;
+    width: 100%;
+    padding: 2px;
+}
+
+/* 1 - header section  */
+.header {
+    border: 2px solid white;
+    position: relative;
+    height: 15vh;
+}
+
+.logosri>a>img {
+    width: 150px;
+    height: 80px;
+    margin-left: 50px;
+}
+
+@media (max-width:470px) {
+    .logosri>a>img {
+        margin-left: 10px;
+    }
+}
+
+@media (min-width:470px) and (max-width:700px) {
+    .logosri>a>img {
+        width: 150px;
+        height: 80px;
+        margin-left: 20px;
+    }
+}
+
+@media (min-width:700px) and (max-width:950px) {
+    .logosri>a>img {
+        width: 150px;
+        height: 80px;
+        margin-left: 60px;
+    }
+}
+
+@media (min-width:950px) and (max-width:1200px) {
+    .logosri>a>img {
+        width: 150px;
+        height: 80px;
+        margin-left: 70px;
+    }
+}
+
+@media (min-width:1200px) and (max-width:1450px) {
+    .logosri>a>img {
+        width: 150px;
+        height: 80px;
+        margin-left: 80px;
+    }
+}
+
+.header-siders {
+    position: absolute;
+    top: 25px;
+    right: 5px;
+    display: flex;
+
+}
+
+.heart>a i {
+    color: black;
+    font-size: 23px;
+}
+
+.bag>a i {
+    color: black;
+    font-size: 23px;
+}
+
+.amount {
+    font-family: arial;
+    font-weight: 700;
+    font-size: 17px;
+    margin-right: 5px;
+}
+
+.one {
+    position: relative;
+    bottom: 14px;
+    right: 10px;
+    border-radius: 30px;
+    width: 12px;
+    height: 13px;
+    font-size: 13px;
+    padding-left: 3px;
+    padding-right: 3px;
+    font-family: arial;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(255, 140, 0);
+}
+
+/*  2- navigation-bar
+                - Menu Bar */
+.navigation-bar {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    background-color: rgb(32, 32, 32);
+}
+
+.item-1 {
+    width: 160px;
+    height: 45px;
+    margin: 2px;
+    color: white;
+
+}
+
+.item-2 {
+    width: 220px;
+    height: 45px;
+    margin: 2px;
+    font-family: arial;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    word-spacing: 10px;
+}
+
+.item-1>a {
+    color: white;
+    text-decoration: none;
+}
+
+.item-2>p {
+    word-spacing: 20px;
+}
+
+.ALL-PRODUCTS {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(49, 48, 48);
+}
+
+/* .ALL-PRODUCTS-MENU */
+.ALL-PRODUCTS {
+    display: inline-block;
+    margin-left: 5px;
+}
+
+.ALL-PRODUCTS a {
+    display: block;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    padding: 13px 30px;
+    border-bottom: 1px solid rgb(40, 40, 40);
+    text-align: start;
+}
+
+.ALL-PRODUCTS .allproducts-menu {
+    display: none;
+    position: relative;
+    top: 0px;
+    left: 3px;
+    box-shadow: 2px 2px 4px rgb(130, 127, 127);
+}
+
+.ALL-PRODUCTS:hover .allproducts-menu {
+    display: block;
+}
+
+.allproducts-menu>a {
+    font-family: arial;
+    font-style: normal;
+    font-size: 17px;
+}
+
+.allproducts-menu a:hover {
+    background-color: rgb(255, 200, 0);
+    color: white;
+}
+
+
+/* Navigation-bars */
+.HOME {
+    font-family: arial;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.HOME:hover {
+    background-color: rgb(212, 161, 8);
+    transition: all 0.4s;
+}
+
+.SHIRTS {
+    font-family: arial;
+    font-weight: bold;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.SHIRTS:hover {
+    background-color: rgb(212, 161, 8);
+    transition: all 0.4s;
+}
+
+.PANTS {
+    font-family: arial;
+    font-weight: bold;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.PANTS:hover {
+    background-color: rgb(212, 161, 8);
+    transition: all 0.4s;
+
+}
+
+.NIGHTWEAR {
+    font-family: arial;
+    font-weight: bold;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.NIGHTWEAR:hover {
+    background-color: rgb(212, 161, 8);
+    transition: all 0.4s;
+}
+
+.CONTACT {
+    font-family: arial;
+    font-weight: bold;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.CONTACT:hover {
+    background-color: rgb(212, 161, 8);
+    transition: all 0.4s;
+}
+
+/* 3-Content of Images */
+.content-images {
+    border: 2px solid rgb(117, 117, 117);
+    width: auto;
+    height: auto;
+    background-size: 100% 100%;
+    animation-name: demo_images;
+    animation-duration: 16s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+@keyframes demo_images {
+    0% {
+        background-image: url(https://images.alphacoders.com/957/957128.jpg);
+    }
+
+    25% {
+        background-image: url(https://miro.medium.com/v2/resize:fit:1200/1*A0RWzWD76zd5U7wRy-mLTw.jpeg);
+    }
+
+    50% {
+        background-image: url(https://i.pinimg.com/originals/c5/5b/8f/c55b8f25a66c1fdd9d32a270985547c0.jpg);
+    }
+
+    75% {
+        background-image: url(https://images.hdqwalls.com/download/hoodie-anonymus-boy-sitting-aside-4k-57-2560x1440.jpg);
+    }
+
+    100% {
+        background-image: url(https://wallpapercave.com/wp/wp4329417.jpg);
+
+    }
+}
+
+/* SALE 50% */
+.shirt-image-1>h3 {
+    width: 2.4em;
+    height: 2em;
+    padding: 30px;
+    font-family: arial;
+    background-color: rgb(255, 200, 0);
+    border-radius: 50px;
+    color: white;
+    position: absolute;
+    top: 10em;
+    right: 10%;
+    margin: 5px;
+}
+
+.shirt-image-1>h3 {
+    transition-duration: 0.5s;
+    transform: rotate(360deg);
+}
+
+.shirt-image-1>h3>span {
+    font-family: arial;
+    font-weight: bold;
+    position: relative;
+    top: 22px;
+    right: 40px;
+
+}
+
+.shirt-image-1 {
+    padding: 10em 4.5em;
+}
+
+.shirt-image-1>h5 {
+    font-family: arial;
+    font-weight: 700;
+    color: rgb(253, 122, 35);
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.shirt-image-1>h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 70px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.shirt-image-1>p {
+    font-family: arial;
+    color: rgb(87, 85, 85);
+    margin-top: 0px;
+    margin-bottom: 40px;
+}
+
+.shirt-image-1>a {
+    background-color: darkorange;
+    font-family: arial;
+    text-decoration: none;
+    padding: 10px 20px;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+}
+
+.shirt-image-1>a:hover {
+    color: blue;
+    transition-duration: 4s;
+}
+
+/* 4-Shitrs-carts 
+            - class = shirt-models
+            - class = shirt-models 1 to 5
+            - id = first-cards  */
+.shirts-models {
+    /* border: 3px solid rgb(112, 183, 5); */
+    width: auto;
+    height: 105vh;
+    margin-top: 5px;
+    margin-right: 0em;
+    padding: 0.9em 2em;
+    display: grid;
+    grid-template-columns: 22% 78%;
+}
+
+.shirts-models {
+    padding-right: 0px;
+}
+
+.shirt-model-1 {
+    background-color: antiquewhite;
+    grid-row-start: 1;
+    grid-row-end: 5;
+    height: auto;
+}
+
+.shirt-model-2 {
+    width: auto;
+    height: 40px;
+    margin-left: 2.1em;
+    margin-top: 3em;
+    margin-bottom: 5px;
+    padding: 0px;
+}
+
+.shirt-model-3 {
+    width: auto;
+    height: 84vh;
+    margin-left: 6em;
+    margin-top: 10px;
+}
+
+.shirt-model-1>h1 {
+    font-family: arial;
+    width: 100%;
+    height: auto;
+    font-size: 2.7em;
+    font-weight: 700;
+    text-align: center;
+    position: relative;
+    top: 6em;
+    color: rgb(145, 248, 0);
+}
+
+/* 4rt content 1st image  */
+.shirt-model-1>a {
+    font-family: arial;
+    font-weight: 700;
+    font-size: 20px;
+    margin-left: 3.5em;
+    text-align: center;
+    position: relative;
+    top: 11.5em;
+    text-decoration: none;
+    color: white;
+    border-bottom: 2px solid rgb(255, 254, 254);
+}
+
+.shirt-model-1>a:hover {
+    color: rgb(247, 190, 55);
+    transition: 2s;
+}
+
+.shirt-model-1 {
+    background-image: url(https://th.bing.com/th/id/OIP.GWj9QMKFE1TW88OQwIZFvgHaLH?pid=ImgDet&w=192&h=288&c=7&dpr=1.5);
+    background-size: 100% 100%;
+}
+
+/* 1st model shirts image names */
+.shirt-model-2 a {
+    text-decoration: none;
+    color: rgb(107, 108, 108);
+    text-align: center;
+    font-size: 20px;
+    font-family: arial;
+    font-weight: 600;
+}
+
+.shirt-model-2 li {
+    display: inline-block;
+    position: relative;
+    left: 30%;
+    margin-right: 3%;
+
+}
+
+.shirt-model-2 a:active {
+    border-bottom: 2px solid;
+    color: black;
+}
+
+/* 4rt content images  */
+.shirt-model-3>div {
+    width: 27.1%;
+    height: 70%;
+    display: inline-block;
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+.forth-content-image1 {
+    background-image: url(https://thefoomer.in/cdn/shop/products/jpeg-optimizer_PATP5270.jpg?v=1680164001);
+    background-size: 100% 100%;
+}
+
+.forth-content-image2 {
+    background-image: url(https://rukminim2.flixcart.com/image/612/612/xif0q/shirt/u/r/p/s-crc-den-db-navy-carbonn-cloth-original-imagh2zyymbcgzrd.jpeg?q=70);
+    background-size: 100% 100%;
+}
+
+.forth-content-image3 {
+    background-image: url(https://rukminim2.flixcart.com/image/612/612/xif0q/shirt/6/t/s/m-plain-shirt-for-mens-shiv-fashion-original-imagfwd8nqk8rmqz.jpeg?q=70);
+    background-size: 100% 100%;
+}
+
+/* 4rt images down side Text  */
+.images-downside-text>div {
+    width: 27.3%;
+    height: 26%;
+    display: inline-block;
+    margin-right: 3.7px;
+}
+
+/* 1st image downside text  */
+.downside-text-first1>div {
+    width: auto;
+    height: 1.7em;
+    margin-bottom: 0px;
+}
+
+.downside-text-first1>.one-1 {
+    font-family: arial;
+    font-weight: 700;
+    color: rgb(110, 108, 108);
+    text-align: center;
+}
+
+.downside-text-first1>.one-2 {
+    font-family: arial;
+    font-size: 20px;
+    text-align: center;
+}
+
+.downside-text-first1>.one-3 {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(255, 119, 0);
+}
+
+.downside-text-first1>.one-4>button {
+    font-family: arial;
+    font-weight: 700;
+    border: none;
+    width: 7.5em;
+    height: 2.2em;
+    background-color: rgb(243, 71, 8);
+    color: white;
+}
+
+.downside-text-first1 a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.downside-text-first1>.one-4 {
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+/* 2nd image dowmside all-text  */
+.downside-text-first2>div {
+    width: auto;
+    height: 1.7em;
+    margin-bottom: 0px;
+}
+
+.downside-text-first2>.two-1 {
+    font-family: arial;
+    font-weight: 700;
+    color: rgb(110, 108, 108);
+    text-align: center;
+}
+
+.downside-text-first2>.two-2 {
+    font-family: arial;
+    font-size: 20px;
+    text-align: center;
+}
+
+.downside-text-first2>.two-3 {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(255, 119, 0);
+}
+
+.downside-text-first2>.two-4>button {
+    font-family: arial;
+    font-weight: 700;
+    border: none;
+    width: 7.5em;
+    height: 2.2em;
+    background-color: rgb(243, 71, 8);
+    color: white;
+}
+
+.downside-text-first2 a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.downside-text-first2>.two-4 {
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+/* 3rd image downside all-text  */
+.downside-text-first3>div {
+    width: 100%;
+    height: 1.7em;
+    margin-bottom: 0px;
+}
+
+.downside-text-first3>.three-1 {
+    font-family: arial;
+    font-weight: 700;
+    color: rgb(110, 108, 108);
+    text-align: center;
+}
+
+.downside-text-first3>.three-2 {
+    font-family: arial;
+    font-size: 20px;
+    text-align: center;
+}
+
+.downside-text-first3>.three-3 {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(255, 119, 0);
+}
+
+.downside-text-first3>.three-4>button {
+    font-family: arial;
+    font-weight: 700;
+    border: none;
+    width: 7.5em;
+    height: 2.2em;
+    background-color: rgb(243, 71, 8);
+    color: white;
+}
+
+.downside-text-first3 a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.downside-text-first3>.three-4 {
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+/* 5 - Timing Content   */
+.timing-section {
+    border: 2px solid rgb(248, 235, 210);
+    width: auto;
+    height: 30em;
+    margin: 5em 2.5em;
+    padding: 0px 20px;
+    display: block;
+}
+
+.timing-section {
+    background-image: url(https://manojkumarchowdary.github.io/Afrah-Fashion.com/img/time-bg.jpg);
+    background-size: 122% 100%;
+}
+
+#section-1 {
+    padding: 0px 20px;
+}
+
+.timing-section-1 {
+    width: auto;
+    height: 50%;
+}
+
+.timing-section-1>h1 {
+    font-family: arial;
+    font-weight: 700;
+    font-size: xx-large;
+    padding-left: 8%;
+    margin-top: 4%;
+    margin-bottom: 5px;
+}
+
+.timing-section-1>#text-downside-line-1 {
+    width: auto;
+    height: 3px;
+    padding: 0px 6%;
+    margin-left: 14%;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(245, 139, 32);
+}
+
+.timing-section-1>p {
+    font-family: arial;
+    padding-left: 3%;
+}
+
+.timing-section-1>h2 {
+    font-family: Arial;
+    font-weight: 700;
+    color: rgb(5, 180, 255);
+    padding: 0px 15%;
+    margin-top: 1%;
+}
+
+/* Timing Section  */
+
+.timing-section-2 {
+    width: auto;
+    height: 50%;
+}
+
+.timing-section-3 {
+    display: flex;
+}
+
+.timing-section-3>button {
+    width: 70px;
+    height: 2em;
+    margin-top: 0.7em;
+    margin-left: 5%;
+    margin-bottom: 1em;
+    font-size: 45px;
+    border: none;
+    border-radius: 10px;
+    color: orange;
+    font-family: arial;
+    font-weight: 700;
+    background-color: rgb(255, 255, 255);
+}
+
+.timing-section-3>button>span {
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 200;
+    position: relative;
+    bottom: 1em;
+    color: rgb(130, 126, 126);
+}
+
+.buy-now-5 {
+    margin-right: 50%;
+    width: auto;
+    height: 25px;
+    text-align: center;
+
+}
+
+.buy-now-5>a {
+    padding: 0.7em;
+    font-family: arial;
+    font-weight: 700;
+    text-decoration: none;
+    background-color: orange;
+    color: aliceblue;
+}
+
+.buy-now-5>a:hover {
+    color: blue;
+    transition: 1s;
+}
+
+/* 6th - content in web page 
+            - pants models to select */
+
+.pants-models {
+    /* border: 2px solid rgb(112, 183, 5); */
+    width: auto;
+    height: 100vh;
+    margin-top: 5px;
+    margin-right: 0em;
+    padding: 5px 2em;
+    display: grid;
+    grid-template-columns: 72% 28%;
+}
+
+/* 1st content images buy for images  */
+.pants-section-1 {
+    display: grid;
+    grid-template-rows: 6% 97%;
+    padding: 1em 2em;
+}
+
+.pant-header {
+    text-align: center;
+    padding-top: 8px;
+}
+
+.pant-header>a {
+    color: rgb(119, 118, 118);
+    font-family: arial;
+    font-weight: 700;
+    font-size: 20px;
+    margin-right: 1%;
+    text-decoration: none;
+
+}
+
+.pant-header>a:active {
+    color: black;
+    text-decoration: underline;
+    transition: 1s;
+}
+
+/* 6th- content middle images */
+.pants-images {
+    margin-top: 15px;
+    padding: 5px 10px;
+    display: grid;
+    grid-template-columns: 31% 31% 31%;
+    grid-template-rows: 72% 22%;
+    column-gap: 15px;
+    row-gap: 7px;
+}
+
+.pant-image-1 {
+    background-image: url(https://ae01.alicdn.com/kf/HTB1gH3jQpXXXXbrXXXXq6xXFXXXO/2017-Men-Casual-Linen-Solid-Color-Ankle-length-Pants-Men-Slim-Fit-High-Quality-British-Style.jpg);
+    background-size: 100% 100%;
+}
+
+.pant-image-2 {
+    background-image: url(pant.jpg);
+    background-size: 100% 100%;
+}
+
+.pant-image-3 {
+    background-image: url(https://stylemann.com/wp-content/uploads/2017/01/1-Weekend-Casuals.jpg);
+    background-size: 100% 100%;
+
+}
+
+/* 1st image down side text  */
+.pant-image-4 {
+    text-align: center;
+    overflow: hidden;
+}
+
+/* 2nd image down side text  */
+.pant-image-5 {
+    text-align: center;
+    overflow: hidden;
+}
+
+/* 3rd image down side text  */
+.pant-image-6 {
+    text-align: center;
+    overflow: hidden;
+}
+
+.pant-text-1 {
+    width: auto;
+    height: 20%;
+    font-family: arial;
+    font-weight: 700;
+    color: rgb(96, 95, 95);
+}
+
+.pant-text-2 {
+    width: auto;
+    height: 25%;
+    font-family: arial;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.pant-text-3 {
+    width: auto;
+    height: 20%;
+    font-weight: 700;
+    color: rgb(245, 128, 4);
+}
+
+.pant-text-4 {
+    width: auto;
+    height: 20%;
+    font-family: arial;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.pant-text-4>a {
+    background-color: orangered;
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 2px 5px;
+}
+
+/* 6th content right side photo editors */
+.pants-section-2 {
+    background-image: url(https://cdn.shopify.com/s/files/1/0162/2116/files/5_Best_Shirt_And_Pant_Combinations_For_Men_7.jpg?v=1541421691);
+    background-size: 100% 100%;
+    text-align: center;
+}
+
+.pants-section-2>h1 {
+    padding-top: 6em;
+    font-family: arial;
+    font-weight: 700;
+    font-size: 45px;
+    color: orange;
+    margin-bottom: 10px;
+}
+
+.pants-section-2>a {
+    border-bottom: 3px solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: arial;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.pants-section-2>a:hover {
+    color: rgb(52, 52, 252);
+    transition: 1s;
+}
+
+
+/* 7th content Suits in web page 
+                    - css edit code
+                    - Suits to select opthions  */
+
+.suits-models {
+    /* border: 3px solid rgb(112, 183, 5); */
+    width: auto;
+    height: 105vh;
+    margin-top: 60px;
+    margin-right: 0em;
+    padding: 0.9em 2em;
+    display: grid;
+    grid-template-columns: 22% 78%;
+}
+
+.suits-models {
+    padding-right: 0px;
+}
+
+.suit-model-1 {
+    background-color: antiquewhite;
+    grid-row-start: 1;
+    grid-row-end: 5;
+    height: auto;
+}
+
+.suit-model-2 {
+    width: auto;
+    height: 40px;
+    margin-left: 2.1em;
+    margin-top: 3em;
+    margin-bottom: 5px;
+    padding: 0px;
+}
+
+.suit-model-3 {
+    width: auto;
+    height: 84vh;
+    margin-left: 6em;
+    margin-top: 10px;
+}
+
+.suit-model-1>h1 {
+    font-family: arial;
+    width: 100%;
+    height: auto;
+    font-size: 2.7em;
+    font-weight: 700;
+    text-align: center;
+    position: relative;
+    top: 6em;
+    color: rgb(145, 248, 0);
+}
+
+/* 4rt content 1st image  */
+.suit-model-1>a {
+    font-family: arial;
+    font-weight: 700;
+    font-size: 20px;
+    margin-left: 3.5em;
+    text-align: center;
+    position: relative;
+    top: 11.5em;
+    text-decoration: none;
+    color: white;
+    border-bottom: 2px solid rgb(255, 254, 254);
+}
+
+.suit-model-1>a:hover {
+    color: rgb(247, 190, 55);
+    transition: 2s;
+}
+
+.suit-model-1 {
+    background-image: url(https://i.pinimg.com/originals/ff/f1/d5/fff1d5c107fc5aad473ffc1504c62fd2.png);
+    background-size: 100% 100%;
+}
+
+/* 1st model shirts image names */
+.suit-model-2 a {
+    text-decoration: none;
+    color: rgb(107, 108, 108);
+    text-align: center;
+    font-size: 20px;
+    font-family: arial;
+    font-weight: 600;
+}
+
+.suit-model-2 li {
+    display: inline-block;
+    position: relative;
+    left: 30%;
+    margin-right: 3%;
+
+}
+
+.suit-model-2 a:active {
+    border-bottom: 2px solid;
+    color: black;
+}
+
+/* 4rt content images  */
+.suit-model-3>div {
+    width: 27.1%;
+    height: 70%;
+    display: inline-block;
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+.suit-content-image1 {
+    background-image: url(https://www.irreverentgent.com/wp-content/uploads/2016/11/How-to-Buy-Your-First-Suit-stylish.jpg);
+    background-size: 100% 100%;
+}
+
+.suit-content-image2 {
+    background-image: url(https://ae01.alicdn.com/kf/HTB1vA37KFXXXXaIXFXXxh4dFXXXz/2018-new-custom-made-blue-male-designer-suits-men-and-men-suit-3-suit-jacket-pants.jpeg);
+    background-size: 100% 100%;
+}
+
+.suit-content-image3 {
+    background-image: url(https://th.bing.com/th/id/OIP.d2CJbKU3i2KBvQGmJ-H2wgHaLH?pid=ImgDet&w=196&h=294&c=7&dpr=1.5);
+    background-size: 100% 100%;
+}
+
+/* 4rt images down side Text  */
+.suits-downside-text>div {
+    width: 27.3%;
+    height: 26%;
+    display: inline-block;
+    margin-right: 3.7px;
+}
+
+/* 1st image downside text  */
+.suits-text-first1>div {
+    width: auto;
+    height: 1.7em;
+    margin-bottom: 0px;
+}
+
+.suits-text-first1>.Suit-1 {
+    font-family: arial;
+    font-weight: 700;
+    color: rgb(110, 108, 108);
+    text-align: center;
+}
+
+.suits-text-first1>.Suit-2 {
+    font-family: arial;
+    font-size: 20px;
+    text-align: center;
+}
+
+.suits-text-first1>.Suit-3 {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(255, 119, 0);
+}
+
+.suits-text-first1>.Suit-4>button {
+    font-family: arial;
+    font-weight: 700;
+    border: none;
+    width: 7.5em;
+    height: 2.2em;
+    background-color: rgb(243, 71, 8);
+    color: white;
+}
+
+.suits-text-first1 a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.suits-text-first1>.Suit-4 {
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+/* 2nd image dowmside all-text  */
+.suits-text-first2>div {
+    width: auto;
+    height: 1.7em;
+    margin-bottom: 0px;
+}
+
+.suits-text-first2>.suit-text-1 {
+    font-family: arial;
+    font-weight: 700;
+    color: rgb(110, 108, 108);
+    text-align: center;
+}
+
+.suits-text-first2>.suit-text-2 {
+    font-family: arial;
+    font-size: 20px;
+    text-align: center;
+}
+
+.suits-text-first2>.suit-text-3 {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(255, 119, 0);
+}
+
+.suits-text-first2>.suit-text-4>button {
+    font-family: arial;
+    font-weight: 700;
+    border: none;
+    width: 7.5em;
+    height: 2.2em;
+    background-color: rgb(243, 71, 8);
+    color: white;
+}
+
+.suits-text-first2 a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.suits-text-first2>.suit-text-4 {
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+/* 3rd image downside all-text  */
+.suits-text-first3>div {
+    width: 100%;
+    height: 1.7em;
+    margin-bottom: 0px;
+}
+
+.suits-text-first3>.suit-three-1 {
+    font-family: arial;
+    font-weight: 700;
+    color: rgb(110, 108, 108);
+    text-align: center;
+}
+
+.suits-text-first3>.suit-three-2 {
+    font-family: arial;
+    font-size: 20px;
+    text-align: center;
+}
+
+.suits-text-first3>.suit-three-3 {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(255, 119, 0);
+}
+
+.suits-text-first3>.suit-three-4>button {
+    font-family: arial;
+    font-weight: 700;
+    border: none;
+    width: 7.5em;
+    height: 2.2em;
+    background-color: rgb(243, 71, 8);
+    color: white;
+}
+
+.suits-text-first3 a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.suits-text-first3>.suit-three-4 {
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+
+/* 8th TRENDING Content in web page
+         - TRENDING Fashions of the Images */
+.trending-content {
+    /* border: 2px solid rgb(0, 187, 255); */
+    padding: 1.5em 2em;
+
+}
+
+.content-one {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.content-one>a {
+    color: rgb(47, 46, 46);
+    font-family: arial;
+    font-weight: 500;
+    font-size: 40px;
+    text-decoration: none;
+    padding-bottom: 4px;
+    border-radius: 40px;
+    border-bottom: 5px solid orange;
+}
+
+.content-twos {
+    /* border: 3px solid green; */
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-gap: 10px;
+}
+
+@media (max-width:400px) {
+    .content-twos {
+        display: grid;
+        grid-template-columns: repeat(1, auto);
+    }
+}
+
+@media (min-width:400px) and (max-width:700px) {
+    .content-twos {
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+    }
+}
+
+@media (min-width:700px) and (max-width:1000px) {
+    .content-twos {
+        display: grid;
+        grid-template-columns: repeat(3, auto);
+    }
+}
+
+@media (min-width:1000px) and (max-width:1400px) {
+    .content-twos {
+        display: grid;
+        grid-template-columns: repeat(4, auto);
+    }
+}
+
+/* All  contents of the images
+                             - 1 To 8
+                             - inline-text and images
+         */
+
+.trendings-images {
+    text-align: center;
+    height: 200px;
+    border: 1px solid rgb(140, 139, 139);
+}
+
+.trendings-images>a {
+    text-decoration: none;
+    color: rgb(38, 37, 37);
+}
+
+.trendings-images img {
+    width: 100%;
+    height: 100%;
+}
+
+.trendings-images>a span {
+    position: relative;
+    bottom: 4.2em;
+    border-radius: 2px;
+    background-color: whitesmoke;
+}
+
+.inline-text {
+    font-family: arial;
+    font-weight: 700;
+    padding: 5%;
+}
+
+.trendings-images:hover {
+    opacity: 0.7;
+    visibility: hidden;
+    visibility: visible;
+}
+
+.inline-text:hover {
+    border: 15px solid rgb(159, 157, 157);
+    transform: scale(1);
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(255, 153, 0);
+}
+
+/* 9th Content In The Web Page
+                - Instagram Acconts
+                - Instagram Images  */
+.instagram-accounts {
+    /* border: 2px solid green; */
+    padding: 2em 3px;
+}
+
+.instagram-accounts>h1 {
+    text-align: center;
+    font-family: arial;
+    font-weight: 500;
+    font-size: xx-large;
+    text-decoration: underline rgb(255, 123, 0);
+    margin-bottom: 10px;
+}
+
+.instagram-accounts>p {
+    text-align: center;
+    font-family: arial;
+    margin-top: 10px;
+    color: rgb(89, 88, 88);
+}
+
+/* Imgaes and Acconts section content  */
+.insta-accounts {
+    width: auto;
+    display: grid;
+    gap: 2px;
+    grid-template-columns: repeat(6, auto);
+}
+
+@media (max-width:400px) {
+    .insta-accounts {
+        display: grid;
+        grid-template-columns: repeat(1, auto);
+    }
+}
+
+@media (min-width:400px) and (max-width:600px) {
+    .insta-accounts {
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+    }
+}
+
+@media (min-width:600px) and (max-width:800px) {
+    .insta-accounts {
+        display: grid;
+        grid-template-columns: repeat(3, auto);
+    }
+}
+
+@media (min-width:800px) and (max-width:1050px) {
+    .insta-accounts {
+        display: grid;
+        grid-template-columns: repeat(4, auto);
+    }
+}
+
+@media (min-width:1050px) and (max-width:1440px) {
+    .insta-accounts {
+        display: grid;
+        grid-template-columns: repeat(6, auto);
+    }
+}
+
+.insta {
+    text-align: center;
+    padding-top: 8em;
+    height: 150px;
+}
+
+.insta-accounts>div>i {
+    color: rgba(255, 0, 0, 0.816);
+    font-size: 200%;
+    /* display: none !important; */
+    visibility: hidden;
+}
+
+.insta:hover .fa-brands {
+    display: block !important;
+    visibility: visible;
+
+}
+
+.instagram-accounts .insta:hover {
+    opacity: 0.6;
+
+}
+
+.insta-1 {
+    background-image: url(https://www.thehighcountrygirls.com/wp-content/uploads/2019/02/jpeg-imag1.jpg);
+    background-size: 100% 100%;
+}
+
+.insta-2 {
+    background-image: url(https://www.desicomments.com/dc3/01/200660/200660.jpg);
+    background-size: 100% 100%;
+}
+
+.insta-3 {
+    background-image: url(https://manojkumarchowdary.github.io/Afrah-Fashion.com/img/insta-1.jpg);
+    background-size: 100% 100%;
+}
+
+.insta-4 {
+    background-image: url(../images/insta.jpg);
+    background-size: 100% 100%;
+}
+
+.insta-5 {
+    background-image: url(https://manojkumarchowdary.github.io/Afrah-Fashion.com/img/insta-6.jpg);
+    background-size: 100% 100%;
+}
+
+.insta-6 {
+    background-image: url(https://i.pinimg.com/originals/f8/21/d2/f821d22589ef22294c4002c37c4488ec.jpg);
+    background-size: 100% 100%;
+}
+
+/* 10th Offers And Free Delivarys
+                    - Offers
+                    - Free Delivary */
+.offer-line {
+    width: auto;
+    height: 7em;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.offer-line>div {
+    width: 23%;
+    padding-top: 4px;
+    font-family: arial;
+    font-weight: 700;
+    font-size: 18px;
+    color: rgb(104, 102, 102);
+
+}
+
+.offer {
+    margin-left: 3em;
+}
+
+.offer-4 {
+    margin-right: 10px;
+}
+
+/* 11th BRANDS OF THE FASHION ALL ITEMS
+                    - Brands List 
+                    - Brands logos*/
+.brands-names {
+    width: auto;
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    background-color: rgb(69, 66, 66);
+}
+
+.brand-logo {
+    padding-top: 10px;
+}
+
+@media (max-width:556px) {
+    .brands-names {
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+    }
+
+    .brand-logo {
+        margin: 10px;
+        padding-top: 10px;
+        overflow: hidden;
+    }
+}
+
+@media (min-width:556px) and (max-width:798px) {
+    .brands-names {
+        display: grid;
+        grid-template-columns: repeat(3, auto);
+    }
+
+    .brand-logo {
+        margin: 10px;
+
+        overflow: hidden;
+
+    }
+}
+
+@media (min-width:798px) and (max-width:1096px) {
+    .brands-names {
+        display: grid;
+        grid-template-columns: repeat(4, auto);
+    }
+
+    .brand-logo {
+        width: 22%;
+        margin: 10px;
+    }
+}
+
+@media (min-width:1096px) and (max-width:1446px) {
+    .brands-names {
+        display: grid;
+        grid-template-columns: repeat(4, auto);
+    }
+
+    .brand-logo {
+        width: 25%;
+        margin: 10px;
+    }
+}
+
+.logo-1 {
+    background-size: 100% 100%;
+}
+
+.logo-2 {
+    background-size: 100% 100%;
+}
+
+.logo-3 {
+    background-size: 100% 100%;
+
+}
+
+.logo-4 {
+    background-size: 100% 100%;
+}
+
+/* 12th Footer of the Details 
+                    - Accounts
+                    - Informations
+                    - Contacts */
+.footer-contents {
+    padding: 4em 2.5em;
+    padding-bottom: 0px;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: 90.2% 9%;
+    column-gap: 2.8em;
+    background-color: rgb(49, 48, 48);
+}
+
+@media (max-width:556px) {
+    .footer-contents {
+        display: block;
+    }
+}
+
+@media (min-width:556px) and (max-width:768) {
+    .footer-contents {
+        display: grid;
+        grid-template-columns: repeat(1, auto);
+        grid-template-rows: 90.2% 9%;
+    }
+}
+
+/* 1st Footer content 
+                      - Addrees and wibsites logos */
+.footer-content-1>div {
+    width: auto;
+}
+
+.footer-logo {
+    height: 27%;
+    margin-bottom: 8px;
+}
+
+.footer-logo>img {
+    object-fit: fill;
+}
+
+.footer-addrees {
+    height: auto;
+}
+
+.footer-addrees>ul {
+    position: relative;
+    right: 40px;
+    color: whitesmoke;
+}
+
+.footer-socialmedia {
+    height: auto;
+    margin-top: 5px;
+}
+
+.footer-addrees>ul>li {
+    font-family: arial;
+    padding-bottom: 7px;
+}
+
+.footer-socialmedia>a {
+    border-radius: 20px;
+    color: whitesmoke;
+    padding: 10px;
+    margin-right: 10px;
+    font-size: 15px;
+    background-color: rgb(108, 105, 105);
+}
+
+.footer-socialmedia>a:hover {
+    background-color: orange;
+    transition: 0.6s;
+}
+
+/* 2nd And 3rd Fotters content Details 
+                             - Information
+                              - My Account */
+
+.footer-content-2 {
+    padding-left: 15px;
+}
+
+.footer-content-2>h3 {
+    font-family: arial;
+    font-weight: 700;
+    color: whitesmoke;
+    margin-bottom: 40px;
+}
+
+.footer-content-2>ul {
+    padding-left: 0px;
+}
+
+.footer-content-2>ul>li {
+    margin-bottom: 23px;
+}
+
+.footer-content-2>ul a {
+    color: whitesmoke;
+    text-decoration: none;
+    font-family: arial;
+}
+
+/* 5th Fotter content details
+                         - Payment Options */
+.footer-content-5 {
+    border-top: 1.5px solid rgb(110, 110, 110);
+    grid-column-start: 1;
+    grid-column-end: 5;
+    position: relative;
+}
+
+.payment-one {
+    width: 55%;
+    height: 95%;
+    font-family: arial;
+    color: whitesmoke;
+    padding-top: 5px;
+}
+
+.payment-one>a {
+    font-family: arial;
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.payment-one>a:hover {
+    color: rgb(255, 123, 0);
+}
+
+.payment-logo {
+    width: 30%;
+    height: 95%;
+    position: absolute;
+    left: 62%;
+    top: 6px;
+}
+
+.payment-logo {
+    background-image: url(https://manojkumarchowdary.github.io/Afrah-Fashion.com/img/payment-method.png);
+    background-size: 100% 80%;
+    background-repeat: no-repeat;
+}
